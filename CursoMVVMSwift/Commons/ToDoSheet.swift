@@ -56,3 +56,10 @@ struct ToDoSheet<Content>: View where Content: View {
         .animation(nil, value: UUID())
     }
 }
+
+#Preview {
+    
+//    ToDoSheet(isShow: .constant(true)) {
+//        Text("Hola Mundo")
+//    }
+}

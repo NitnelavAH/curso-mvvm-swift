@@ -24,3 +24,15 @@ extension View {
         }
     }
 }
+
+#Preview {
+    VStack {
+        Text("Hola Mundo")
+            .padding()
+        .background(Color.blue)
+        
+        .cornerRadius(16, corners: .bottomLeft)
+        .foregroundStyle(.white)
+    }
+    
+}

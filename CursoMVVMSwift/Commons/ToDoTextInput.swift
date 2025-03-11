@@ -73,3 +73,11 @@ public struct ToDoTextInput: View {
     }
     
 }
+    
+#Preview {
+//    @Previewable @State var text: String = ""
+//    VStack {
+//        ToDoTextInput("Hola", text: $text).padding()
+//    }.background(.gray)
+//        .padding()
+}
